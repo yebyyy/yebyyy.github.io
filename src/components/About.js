@@ -3,7 +3,7 @@ function About() {
         <div className="pt-10 pl-10 pr-10 rounded-lg">
             <h2 className="text-2xl font-bold">📝 About Me</h2>
             <p className="mt-4 text-gray-700 leading-relaxed">
-                I'm an <span className="font-semibold">Undergraduate Computer Science student at Georgia Tech</span>. My threads are <span className="font-medium">Intelligence and Theory</span>. I am passionate about <span className="text-indigo-600 font-medium">software/web development</span>, <span className="text-indigo-600 font-medium">data science</span>, and <span className="text-indigo-600 font-medium">artificial intelligence</span>. As a competitive programmer and a machine learning enthusiast, I'm always on the lookout for new technologies and innovative solutions to real-world challenges. Currently, I'm seeking <span className="italic font-medium">internships</span> and <span className="italic font-medium">research opportunities</span> in the field of computer science.
+                I’m a <span className="font-semibold">Computer Science student at Georgia Tech</span> pursuing a <span className="font-medium">Minor in Robotics</span>. My recent work focuses on <span className="text-indigo-600 font-medium">embodied AI</span>, <span className="text-indigo-600 font-medium">robot navigation</span>, and <span className="text-indigo-600 font-medium">reinforcement learning</span>. I have experience building sim-to-real learning pipelines with Habitat-Sim and deploying policies on real robots with ROS-based systems.
             </p>
         </div>
     );
