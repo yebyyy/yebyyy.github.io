@@ -12,10 +12,10 @@ function App() {
   return (
       <div>
           <Header />
-          <Education />
           <About />
           <Publications />
           <ResearchExperience />
+          <Education />
           <Projects />
           <Skills />
           <RelevantCourses />

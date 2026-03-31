@@ -3,16 +3,22 @@ function Projects() {
         <div className="p-10">
             <h2 className="text-2xl font-bold mb-4">🚀 Projects</h2>
             <div className="space-y-4">
+                <a href="https://github.com/yebyyy/PaliGemma" className="block">
+                    <div className="bg-white shadow-lg rounded-lg p-4 hover:bg-gray-100 hover:shadow-xl transition duration-300 ease-in-out">
+                        <h3 className="text-xl font-semibold text-purple-600 hover:text-purple-800">Reproduce PaliGemma</h3>
+                        <p className="text-gray-600">Built and experimented with a Vision-Language Model (VLM) pipeline based on PaliGemma for multimodal understanding tasks that combine visual and textual reasoning.</p>
+                    </div>
+                </a>
                 <a href="https://github.com/yebyyy/Auto-Horizon" className="block">
                     <div className="bg-white shadow-lg rounded-lg p-4 hover:bg-gray-100 hover:shadow-xl transition duration-300 ease-in-out">
                         <h3 className="text-xl font-semibold text-purple-600 hover:text-purple-800">Self-Driving Gaming Agent for Forza Horizon 4</h3>
                         <p className="text-gray-600">Trained behavioral cloning and reinforcement learning policies in PyTorch with visual encoders and mini VLA models; built data preprocessing pipelines and benchmarked reward designs across model architectures.</p>
                     </div>
                 </a>
-                <a href="https://github.com/yebyyy/yebyyy.github.io/blob/main/ML%20Group%2060%20-%20Final%20Report%20%7C%20Cayman%20theme.pdf" className="block">
+                 <a href="https://github.com/yebyyy/Reproduce-GPT2" className="block">
                     <div className="bg-white shadow-lg rounded-lg p-4 hover:bg-gray-100 hover:shadow-xl transition duration-300 ease-in-out">
-                        <h3 className="text-xl font-semibold text-purple-600 hover:text-purple-800">Learning UAV State Estimator</h3>
-                        <p className="text-gray-600">Built a multimodal UAV state estimator for GPS-denied environments; engineered a ResNet18 + PCA preprocessing pipeline and trained Linear Regression, MLP, and LSTM models for 12-DOF state prediction.</p>
+                        <h3 className="text-xl font-semibold text-purple-600 hover:text-purple-800">Reproduce GPT-2</h3>
+                        <p className="text-gray-600">Reproduced key GPT-2 architecture and training components to better understand transformer language modeling dynamics and implementation details.</p>
                     </div>
                 </a>
                 <a href="https://github.com/yebyyy/SD-From-Scratch" className="block">
@@ -21,16 +27,10 @@ function Projects() {
                         <p className="text-gray-600">Constructed and optimized a Stable Diffusion v1.5 pipeline with VAE, CLIP, U-Net, and attention mechanisms, integrating HuggingFace pretrained weights for text-to-image and image-to-image generation.</p>
                     </div>
                 </a>
-                <a href="https://github.com/yebyyy/Reproduce-GPT2" className="block">
+                <a href="https://github.com/yebyyy/yebyyy.github.io/blob/main/ML%20Group%2060%20-%20Final%20Report%20%7C%20Cayman%20theme.pdf" className="block">
                     <div className="bg-white shadow-lg rounded-lg p-4 hover:bg-gray-100 hover:shadow-xl transition duration-300 ease-in-out">
-                        <h3 className="text-xl font-semibold text-purple-600 hover:text-purple-800">Reproduce GPT-2</h3>
-                        <p className="text-gray-600">Reproduced key GPT-2 architecture and training components to better understand transformer language modeling dynamics and implementation details.</p>
-                    </div>
-                </a>
-                <a href="https://github.com/yebyyy/PaliGemma" className="block">
-                    <div className="bg-white shadow-lg rounded-lg p-4 hover:bg-gray-100 hover:shadow-xl transition duration-300 ease-in-out">
-                        <h3 className="text-xl font-semibold text-purple-600 hover:text-purple-800">PaliGemma (VLM)</h3>
-                        <p className="text-gray-600">Built and experimented with a Vision-Language Model (VLM) pipeline based on PaliGemma for multimodal understanding tasks that combine visual and textual reasoning.</p>
+                        <h3 className="text-xl font-semibold text-purple-600 hover:text-purple-800">Learning UAV State Estimator</h3>
+                        <p className="text-gray-600">Built a multimodal UAV state estimator for GPS-denied environments; engineered a ResNet18 + PCA preprocessing pipeline and trained Linear Regression, MLP, and LSTM models for 12-DOF state prediction.</p>
                     </div>
                 </a>
             </div>
