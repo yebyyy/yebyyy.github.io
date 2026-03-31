@@ -5,11 +5,11 @@ function ResearchExperience() {
             institution: "Georgia Institute of Technology",
             period: "Aug 2024 – Present",
             details: [
-                "Developed EmbodiedSplat, a real-to-sim-to-real framework for personalized embodied navigation with 3D Gaussian Splatting and Habitat-Sim.",
-                "Coauthored work accepted at ICCV 2025 Main Conference and CVPR 2025 Embodied AI Workshop.",
-                "Trained navigation and mobile manipulation policies with visual encoders, DD-PPO, VLA models, and diffusion policies, improving real-world success rates over zero-shot baselines.",
-                "Leveraged 16×A40 GPUs for large-scale pretraining and scene-specific fine-tuning; achieved strong sim-to-real correlation across indoor environments.",
-                "Deployed policies on a Stretch mobile robot using a ROS-based remote inference pipeline with camera streams, goal-image localization, and real-time execution."
+                "Designed a photorealistic mobile manipulation benchmark using 3D Gaussian Splatting (3DGS) and NVIDIA Isaac Sim for real-to-sim-to-real evaluation.",
+                "Developed a reinforcement learning pipeline for Vision-Language-Action (VLA) policies, achieving 20–40% improvement in real-world success rates and 0.87–0.97 sim-to-real correlation.",
+                "Studied sim-to-real transfer via personalized training, comparing large-scale pretraining vs scene-specific fine-tuning for π0.5 VLA models.",
+                "Implemented and evaluated baseline VLA and modular policies on long-horizon tasks, measuring generalization and robustness across environments.",
+                "Deployed policies on a physical robot via a ROS-based pipeline with real-time perception and control integration."
             ]
         },
         {
@@ -26,7 +26,7 @@ function ResearchExperience() {
 
     return (
         <div className="p-10 bg-gradient-to-br from-gray-100 to-gray-200">
-            <h2 className="text-2xl font-bold mb-4">🔬 Research Experience</h2>
+            <h2 className="text-2xl font-bold mb-4">🔬 Experience</h2>
             <div className="space-y-6">
                 {researchExperiences.map((exp, index) => (
                     <div key={index} className="bg-white rounded-lg shadow-lg p-6 hover:shadow-xl transition-shadow duration-300">

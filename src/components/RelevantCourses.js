@@ -1,8 +1,5 @@
 function RelevantCourses() {
-    const courses = ["Honor's Linear Algebra with abstract vector space",
-        "Introduction to Object-oriented programming", "Data Structures & Algorithms",
-        "Honors Introduction to Discrete Mathematics", "Objects and Design",
-        "Introduction to Multivariable Calculus"];
+    const courses = ["Deep Learning", "Computer Vision", "Perception and Robotics", "Machine Learning", "Data Structures & Algorithms", "Database Systems", "Computer Networking"];
     return (
         <div className="p-10">
             <h2 className="text-2xl font-bold mb-4">📚 Relevant Courses</h2>
